@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment_11</title>
+    <style>
+        body {
+
+            background-color: rgb(244, 249, 249);
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .item {
+
+            height: 400px;
+            width: 300px;
+            margin: 5px;
+            border: 1px solid rgb(227, 225, 225);
+            border-radius: 10px;
+            background-color: white;
+        }
+
+        .item:hovor {
+            border: 1px solid rgb(234, 232, 232);
+        }
+
+        .main_img {
+            border-radius: 10px 10px 0px 0px;
+            margin-bottom: 5px;
+        }
+
+        .project-heading {
+            font-size: 23px;
+            font-weight: 600;
+            font-family: cursive;
+            margin-bottom: 5px;
+        }
+
+        .sub_container {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .course-name {
+            background-color: rgb(201, 235, 192);
+            padding: 4px;
+            border-radius: 4px;
+        }
+
+        .project-discription {
+            font-size: 14px;
+            color: rgb(159, 157, 157);
+        }
+
+        .tech-stack {
+            display: flex;
+            margin: 2px;
+            gap: 20px;
+        }
+
+        .card {
+            display: inline-flex;
+            align-items: center;
+            padding-left: 4px;
+            background: #f3f3f3;
+            border-radius: 30px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+            
+        }
+
+        .skill-img {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+            font-size: 10px;
+        }
+.label {
+    background: #eaeaea;
+    border-radius: 30px;
+    font-size: 10px;
+    display: inline-block;
+    cursor: default;
+}
+
+
+        .project-duration {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+
+        }
+
+        .calender-img {
+            height: 18px;
+            width: 18px;
+            margin-right: 8px;
+        }
+
+        .project-durationsub-info {
+            display: flex;
+            align-items: center;
+        }
+
+        .project-durationinfo {
+            font-size: 12px;
+            color: rgb(105, 105, 105);
+        }
+
+        .profile-img {
+            height: 19px;
+            margin-left: 35px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .project-developer {
+            font-size: 12px;
+            color: rgb(105, 105, 105);
+        }
+
+        .hr-line {
+            margin: 10px 0px;
+            border: 0.5px rgb(232, 230, 230) solid;
+        }
+
+        .reactions {
+            display: flex;
+            border-radius: 20px;
+            font-size: 12px;
+            align-items: center;
+            gap: 10px;
+            color: rgb(105, 105, 105);
+        }
+
+        .project-action {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: rgb(60, 60, 233);
+            justify-content: space-between;
+            margin-left: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <img src="./images/card-1.png" width="300px" height="170px" class="main_img" />
+            <div class="sub_container">
+                <span class="project-heading">Road To Code</span><br>
+                <span class="course-name">Internship Cohort Program 6.0</span><br>
+                <p class="project-discription">We help you to learn the latest technologies and tools to kickstart your
+                    career in tech</p>
+                <div class="tech-stack">
+                    <div class="card">
+                        <img src="./images/html-img.png" alt="HTML Logo" class="skill-img">
+
+                        <div class="label">HTML</div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/css-img.png" alt="CSS Logo" class="skill-img">
+
+                        <div class="label">CSS</div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/github-img.png" alt="GitHub Logo" class="skill-img">
+
+                        <div class="label">GitHub</div>
+                    </div>
+
+                </div>
+                <div class="project-duration">
+                    <div class="project-durationsub-info">
+                        <img src="./images/calendar.svg" class="calender-img" />
+                        <span class="project-durationinfo">Apr 2024 - Apr 2024</span>
+                        <img src="./images/sir.webp" class="profile-img">
+                        <span class="project-developer">Suraj Shende</span>
+                    </div>
+                </div>
